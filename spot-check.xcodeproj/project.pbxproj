@@ -8,19 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		23E8D3E223BEC38000E55B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E8D3E123BEC38000E55B65 /* AppDelegate.swift */; };
-		23E8D3E423BEC38000E55B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E8D3E323BEC38000E55B65 /* ViewController.swift */; };
 		23E8D3E623BEC38100E55B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E8D3E523BEC38100E55B65 /* Assets.xcassets */; };
-		23E8D3E923BEC38100E55B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E8D3E723BEC38100E55B65 /* Main.storyboard */; };
+		23E8D3F223BECB2000E55B65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E8D3F123BECB2000E55B65 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23E8D3DE23BEC38000E55B65 /* spot-check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spot-check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E8D3E123BEC38000E55B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23E8D3E323BEC38000E55B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23E8D3E523BEC38100E55B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23E8D3E823BEC38100E55B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23E8D3EA23BEC38100E55B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E8D3EB23BEC38100E55B65 /* spot_check.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = spot_check.entitlements; sourceTree = "<group>"; };
+		23E8D3F123BECB2000E55B65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +52,10 @@
 			isa = PBXGroup;
 			children = (
 				23E8D3E123BEC38000E55B65 /* AppDelegate.swift */,
-				23E8D3E323BEC38000E55B65 /* ViewController.swift */,
 				23E8D3E523BEC38100E55B65 /* Assets.xcassets */,
-				23E8D3E723BEC38100E55B65 /* Main.storyboard */,
 				23E8D3EA23BEC38100E55B65 /* Info.plist */,
 				23E8D3EB23BEC38100E55B65 /* spot_check.entitlements */,
+				23E8D3F123BECB2000E55B65 /* main.swift */,
 			);
 			path = "spot-check";
 			sourceTree = "<group>";
@@ -122,7 +119,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E8D3E623BEC38100E55B65 /* Assets.xcassets in Resources */,
-				23E8D3E923BEC38100E55B65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +129,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E8D3E423BEC38000E55B65 /* ViewController.swift in Sources */,
 				23E8D3E223BEC38000E55B65 /* AppDelegate.swift in Sources */,
+				23E8D3F223BECB2000E55B65 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		23E8D3E723BEC38100E55B65 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23E8D3E823BEC38100E55B65 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		23E8D3EC23BEC38100E55B65 /* Debug */ = {
